@@ -15,7 +15,7 @@ public class TestController {
         var p = new PersonDto();
         p.setId(UUID.randomUUID().toString());
         p.setName("Carlos");
-        p.setCpf("214576278-76");
+//        p.setCpf("214576278-76");
 
         PersonVo personVo = new PersonVo(p);
 
